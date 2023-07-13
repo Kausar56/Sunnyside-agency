@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(images/desktop/image-header.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    
+}
